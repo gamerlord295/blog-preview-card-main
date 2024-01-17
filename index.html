@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @font-face {
+        font-family: font;
+        src: local(""), url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+      }
+      body {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background: #f4d04e;
+        margin: 0;
+        font-family: font;
+      }
+      .card img {
+        border-radius: 16px;
+      }
+      .card {
+        background: white;
+        padding: 24px;
+        border-radius: 20px;
+        border: solid black 1px;
+        box-shadow: black 6px 6px;
+        height: fit-content;
+        width: 336px;
+      }
+      h4 {
+        background: #f4d04e;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 6px;
+      }
+      h2 {
+        letter-spacing: -1px;
+      }
+      p {
+        font-size: medium;
+      }
+      .des {
+        color: gray;
+      }
+      .footer {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        font-size: smaller;
+      }
+      .footer img {
+        width: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="./assets/images/illustration-article.svg" />
+      <h4>Learning</h4>
+      <p>Published 21 Dec 2023</p>
+      <h2>HTML & CSS foundations</h2>
+      <p class="des">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation
+      </p>
+      <div class="footer">
+        <img src="./assets/images/image-avatar.webp" alt="" />
+        <h3>Greg Hooper</h3>
+      </div>
+    </div>
+  </body>
+</html>
